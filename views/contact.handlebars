@@ -1,0 +1,44 @@
+<h1>{{h1}}</h1>
+<hr>
+<br>
+<div class="activebar">
+    <a href="/">{{ah}}</a>
+    <a href="about">{{aa}}</a>
+    <a href="contact">{{ac}}</a>
+</div>
+<br>
+<!--username, email, and password are all together in container-->
+
+<body>
+    <div class="container">
+        <form id="frm1" method="post" action="/contact">
+            <pre>
+                <div class="input-control">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" value="{{username}}">
+                   {{#if usernamemsg}}
+                        <div class="msg error">{{usernamemsg}}</div>
+                    {{/if}}
+                </div>
+                <div class="input-control">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" value="{{email}}">
+                    {{#if emailmsg}}
+                        <div class="msg error">{{emailmsg}}</div>
+                    {{/if}}
+                </div>
+                <div class="input-control">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" value="{{password}}">
+                    {{#if passwordmsg}}
+                        <div class="msg error">{{passwordmsg}}</div>
+                    {{/if}}
+                </div>
+                <div class="{{formValid}}">{{message}}</div>
+                <!--submit button for all input data-->
+                <input class="input-control input" type="submit" value="Submit">
+            </pre>
+        </form>
+    </div>
+    <br>
+    <p>{{para}}</p>

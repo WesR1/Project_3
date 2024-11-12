@@ -1,0 +1,167 @@
+body {
+    background-image: url('/img/images.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+
+}
+.para {
+    margin: auto;
+    width: fit-content;
+    font-size: 20px;
+    background-color: rgb(128, 147, 171);
+    outline-style: auto;
+    outline-color: rgb(7, 57, 119);
+
+}
+
+.pp {
+    color:red;
+    font-weight: 500;
+    margin: auto;
+    width: fit-content;
+}
+title {
+    font-size: 35px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    width: fit-content;
+}
+h1 {
+    font-size: 35px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    width: fit-content;
+    outline-style: auto;
+    outline-color: aliceblue;
+    box-shadow: 0 10px 12px 0 rgb(0, 0, 0.2);
+    outline-width: 25%;
+
+}
+.Scolumns {
+    float:left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.employeecards {
+    box-shadow: 0 10px 12px 0 rgb(0, 0, 0.2);
+    margin: auto;
+    margin-bottom: 25px;
+    width: fit-content;
+    border: 5px solid white;
+    background-color: rgb(9, 75, 180);
+
+}
+
+.about-section-header-1 {
+    padding: 0px;
+    text-align: center;
+
+}
+
+.container {
+    padding: 0 16px;
+}
+.Rows {
+    width: fit-content;
+    margin: auto;
+    margin-left: 38.60%;
+}
+
+.container::after,.Rows::after{
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+.abouttitle {
+    color:rgb(255, 255, 255);
+    background-color: rgb(75, 86, 100);
+    border-radius: 5%;
+    outline: auto;
+    outline-color: white;
+    text-align: center;
+}
+
+.aboutcontact {
+    cursor: pointer;
+    width: 100%;
+    outline:rgb(0, 0, 0);
+    border: none;
+    display: inline-block;
+    padding: 9px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.aboutcontact:hover {
+    background-color: #547; 
+    color: white;
+}
+
+@media screen and (max-width: 650px)
+{ .Scolumns {
+    width: 100%;
+    display: block;}
+}
+
+.aboutpara {
+    color: white;
+    background-color: rgb(79, 93, 111);
+    border-radius: 5%;
+    outline: auto;
+    outline-color: white;
+    text-align: center;
+}
+.aboutpara1 {
+    color: black;
+    background-color: white;
+    outline-color: black;
+    outline:5px;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    margin-top: 19px;
+    margin-bottom: 19px;
+    padding: 10px;
+    border: 5px black;
+}
+.about-section-header-1 {
+    width: auto;
+}
+.activebar a {
+    border: solid white;
+    margin: 15px 15px;
+    font-size: 20px;
+    color:rgb(2, 45, 137);
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 1s; font-size: 2px for 1s color;
+    padding: 5px 10px; 
+    background-color: rgb(59, 128, 83);
+}
+
+.activebar a :hover {
+    border: solid white;
+    animation-name: colorswaps;
+    animation-duration: infinite;
+    background-repeat: repeat;
+    animation-iteration-count: 10;
+    font-size: 15px;
+    color:rgb(0, 255, 242);
+    background-color: rgb(18, 20, 104);
+    text-decoration: underline;
+    transition: 1s; margin: 3px; font-size: 30px;
+}
+h3 {
+    color: white;
+}

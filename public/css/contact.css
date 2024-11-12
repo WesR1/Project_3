@@ -1,0 +1,228 @@
+body {
+    background-image: url('/img/images.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+
+}
+
+.activebar a {
+    border: solid white;
+    margin: 15px 15px;
+    font-size: 20px;
+    color: rgb(2, 45, 137);
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 1s;
+    font-size: 2px for 1s color;
+    padding: 5px 10px;
+    background-color: rgb(59, 128, 83);
+}
+
+.activebar a:hover {
+    border: solid white;
+    animation-name: colorswaps;
+    animation-duration: infinite;
+    background-repeat: repeat;
+    animation-iteration-count: 10;
+    font-size: 15px;
+    color: rgb(0, 255, 242);
+    background-color: rgb(18, 20, 104);
+    text-decoration: underline;
+    transition: 1s;
+    margin: 3px;
+    font-size: 30px;
+}
+
+title {
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    width: fit-content;
+
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    width: fit-content;
+    outline-style: auto;
+    outline-color: aliceblue;
+    box-shadow: 0 10px 12px 0 rgb(0, 0, 0.2);
+    outline-width: 25%;
+
+}
+
+#frm1 {
+    width: 300px;
+    text-align: center;
+    padding: 25px;
+    margin: 15vh auto 0 auto;
+    background-color: rgb(114, 185, 229);
+    border-radius: 3px;
+    font-size: 13px;
+    outline: auto;
+    outline-color: black;
+    box-shadow: 0 10px 12px 0 rgb(0, 0, 0.2);
+    ;
+}
+
+#frm1 h1 {
+    background: none;
+    border-radius: 15px;
+    border: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#frm1 button {
+    width: 130px;
+    padding: 15px;
+    text-align: center;
+    margin: 100px;
+    color: white;
+    background-color: rgb(0, 57, 164);
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 10px 12px 0 rgb(0, 0, 0.2);
+    ;
+}
+
+#frm1 button:hover {
+    background-color: rgb(28, 171, 44);
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    transition: 1.5s;
+    text-align: center;
+    animation-name: colorswaps;
+    animation-duration: infinite;
+    animation-direction: reverse;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control label {
+    padding: 6px 6px;
+    font-size: 15px;
+}
+
+.input-control div.error {
+    padding: 6px 6px;
+    font-size: 14px;
+}
+
+.input[type="submit"] {
+    width: 130px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(87, 145, 254);
+    border: none;
+    border-radius: 4px;
+    margin: auto;
+    width:fit-content;
+    padding-bottom: 5px;
+}
+
+.input-control input[type="text password"] {
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.success {
+    color: rgb(12, 144, 16);
+}
+
+.success input {
+    border-color: rgb(70, 183, 74);
+}
+
+.input-control .success input {
+    border-color: rgb(70, 183, 74);
+}
+
+.input-control .success {
+    border-color: rgb(70, 183, 74);
+    font-size: 9px;
+    height: 13px;
+}
+
+.input-control .errors input {
+    border-color: rgb(190, 84, 57);
+}
+
+.error {
+    padding-top: 5px;
+    padding: 6px;
+    color: red;
+}
+
+.error input {
+    border-color: rgb(190, 84, 57);
+}
+
+.input-control .error {
+    border-color: rgb(190, 84, 57);
+    font-size: 15px;
+    height: 13px;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.Rows {
+    width: fit-content;
+    margin: auto;
+}
+
+.container::after,
+.Rows::after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+.activebar a {
+    border: solid white;
+    margin: 15px 15px;
+    font-size: 20px;
+    color: rgb(2, 45, 137);
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 1s;
+    font-size: 2px for 1s color;
+    padding: 5px 10px;
+    background-color: rgb(59, 128, 83);
+}
+
+.activebar a:hover {
+    border: solid white;
+    animation-name: colorswaps;
+    animation-duration: infinite;
+    background-repeat: repeat;
+    animation-iteration-count: 10;
+    font-size: 15px;
+    color: rgb(0, 255, 242);
+    background-color: rgb(18, 20, 104);
+    text-decoration: underline;
+    transition: 1s;
+    margin: 3px;
+    font-size: 30px;
+}

@@ -1,0 +1,92 @@
+.pp {
+    color:red;
+    font-weight: 500;
+}
+body {
+    background-image: url('/img/images.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+
+}
+.activebar a {
+    border: solid white;
+    margin: 15px 15px;
+    font-size: 20px;
+    color:rgb(2, 45, 137);
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 1s; font-size: 2px for 1s color;
+    padding: 5px 10px; 
+    background-color: rgb(59, 128, 83);
+}
+
+.activebar a:hover {
+    border: solid white;
+    animation-name: colorswaps;
+    animation-duration: infinite;
+    background-repeat: repeat;
+    animation-iteration-count: 10;
+    font-size: 15px;
+    color:rgb(0, 255, 242);
+    background-color: rgb(18, 20, 104);
+    text-decoration: underline;
+    transition: 1s; margin: 3px; font-size: 30px;
+}
+.para {
+    margin: auto;
+    text-align: center;
+    width: fit-content;
+    font-size: 15px;
+    background-color: rgb(2, 87, 193);
+    outline-style: auto;
+    outline-color: rgb(7, 57, 119);
+
+}
+h1 {
+    font-size: 35px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    width: fit-content;
+    outline-style: auto;
+    outline-color: aliceblue;
+    box-shadow: 0 10px 12px 0 rgb(0, 0, 0.2);
+    outline-width: 25%;
+}
+h2 {
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    width: fit-content;
+    background-color: rgb(2, 87, 193);
+    outline-style: auto;
+    outline-color: rgb(7, 57, 119);
+
+}
+title {
+    text-align: center;
+}
+
+.para {
+    font-size: 15px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: black, 2%,;
+    border-radius: 2%;
+    
+}
+.paraC2 {
+    font-size: 15px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
